@@ -37,6 +37,13 @@ const AddToList: React.FC<IProps> = ({ people, setPeople }) => {
         url: input.img,
       },
     ])
+
+    setInput({
+      name: '',
+      age: '',
+      note: '',
+      img: '',
+    })
   }
 
   return (
